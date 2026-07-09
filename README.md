@@ -6,14 +6,15 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 3 |
+| 2 | 4 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (1)
-- [implementation](#implementation) (1)
+- [brute force](#brute-force) (2)
+- [implementation](#implementation) (2)
+- [math](#math) (1)
 - [strings](#strings) (1)
 
 ---
@@ -22,13 +23,21 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
 | 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/2132/A%20-%20Homework/solution.py) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
 | 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/2132/A%20-%20Homework/solution.py) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
 
 ### strings
 
