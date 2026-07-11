@@ -1,0 +1,25 @@
+<h2><a href="https://codeforces.com/contest/1933/problem/B" target="_blank" rel="noopener noreferrer">1933B — Turtle Math: Fast Three Task</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | Python 3 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1933B](https://codeforces.com/contest/1933/problem/B) |
+
+## Topics
+`implementation` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Turtle Math: Fast Three Task</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given an array $$$a_1, a_2, \ldots, a_n$$$.</p><p>In one move, you can perform either of the following two operations:</p><ul> <li> Choose an element from the array and remove it from the array. As a result, the length of the array decreases by $$$1$$$;</li><li> Choose an element from the array and increase its value by $$$1$$$. </li></ul><p>You can perform any number of moves. If the current array becomes empty, then no more moves can be made.</p><p>Your task is to find the <span class="tex-font-style-bf">minimum</span> number of moves required to make the sum of the elements of the array $$$a$$$ divisible by $$$3$$$. It is possible that you may need $$$0$$$ moves.</p><p>Note that the sum of the elements of an empty array (an array of length $$$0$$$) is equal to $$$0$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$1 \le n \le 10^5$$$).</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$1 \le a_i \le 10^4$$$).</p><p>The sum of $$$n$$$ over all test cases does not exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer: the minimum number of moves.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00023278892482801017" id="id002995768166624927" class="input-output-copier">Copy</div></div><pre id="id00023278892482801017"><div class="test-example-line test-example-line-even test-example-line-0">8</div><div class="test-example-line test-example-line-odd test-example-line-1">4</div><div class="test-example-line test-example-line-odd test-example-line-1">2 2 5 4</div><div class="test-example-line test-example-line-even test-example-line-2">3</div><div class="test-example-line test-example-line-even test-example-line-2">1 3 2</div><div class="test-example-line test-example-line-odd test-example-line-3">4</div><div class="test-example-line test-example-line-odd test-example-line-3">3 7 6 8</div><div class="test-example-line test-example-line-even test-example-line-4">1</div><div class="test-example-line test-example-line-even test-example-line-4">1</div><div class="test-example-line test-example-line-odd test-example-line-5">4</div><div class="test-example-line test-example-line-odd test-example-line-5">2 2 4 2</div><div class="test-example-line test-example-line-even test-example-line-6">2</div><div class="test-example-line test-example-line-even test-example-line-6">5 5</div><div class="test-example-line test-example-line-odd test-example-line-7">7</div><div class="test-example-line test-example-line-odd test-example-line-7">2 4 8 1 9 3 4</div><div class="test-example-line test-example-line-even test-example-line-8">2</div><div class="test-example-line test-example-line-even test-example-line-8">4 10</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007955317099797454" id="id006085917152908756" class="input-output-copier">Copy</div></div><pre id="id007955317099797454">1
+0
+0
+1
+1
+2
+1
+1
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, initially the array $$$a = [2, 2, 5, 4]$$$. One of the optimal ways to make moves is: </p><ul> <li> remove the current $$$4$$$th element and get $$$a = [2, 2, 5]$$$; </li></ul> As a result, the sum of the elements of the array $$$a$$$ will be divisible by $$$3$$$ (indeed, $$$a_1 + a_2 + a_3 = 2 + 2 + 5 = 9$$$).<p>In the second test case, initially, the sum of the array is $$$1+3+2 = 6$$$, which is divisible by $$$3$$$. Therefore, no moves are required. Hence, the answer is $$$0$$$.</p><p>In the fourth test case, initially, the sum of the array is $$$1$$$, which is not divisible by $$$3$$$. By removing its only element, you will get an empty array, so its sum is $$$0$$$. Hence, the answer is $$$1$$$.</p></div>
