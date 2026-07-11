@@ -6,15 +6,16 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 4 |
+| 3 | 5 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [brute force](#brute-force) (2)
-- [implementation](#implementation) (2)
-- [math](#math) (1)
+- [implementation](#implementation) (3)
+- [math](#math) (2)
+- [number theory](#number-theory) (1)
 - [strings](#strings) (1)
 
 ---
@@ -30,6 +31,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1933B | [Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/1933/B%20-%20Turtle%20Math%3A%20Fast%20Three%20Task/solution.py) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
 | 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/2132/A%20-%20Homework/solution.py) |
 
@@ -37,7 +39,14 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1933B | [Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/1933/B%20-%20Turtle%20Math%3A%20Fast%20Three%20Task/solution.py) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1933B | [Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | 800 | [Python 3](https://github.com/akshayraj06/Codeforces-Solutions/blob/HEAD/1933/B%20-%20Turtle%20Math%3A%20Fast%20Three%20Task/solution.py) |
 
 ### strings
 
